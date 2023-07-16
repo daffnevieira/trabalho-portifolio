@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(29, 28, 28);
+    font-family: 'Nanum gothic', Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 50px;
+    background-color: rgb(206, 193, 220);
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+li{
+    margin: 10px;
+}
+li:hover{
+    padding: 3px;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inicial-container{
+    width: 900px;
+    margin: 20vh;
+    display: inline-flex;  
+}
+.inicial-container > p{
+    font-size: 10vh;
+
+}
+.img-inicial > img{
+    width: 400px;
+}
+.about-me{
+    border-radius: 10px;
+    background-color: rgb(37, 36, 36);
+    width: 900px;
+    padding: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.about-me > p{
+    font-size: 20px;
+}
+.texto-Hacker{
+    color: #149414;
+}
+.education-container{
+    width: 900px;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.education-container > p{
+    margin: 20px;
+    font-size: 20px;
+}
+.contato-container{
+    background-color: rgb(206, 193, 220);
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-contact{
+    width: 10vh;
+}
+.div-form{
+    width: 400px;
+    margin: 10vh;
+    text-align: center;
+    background-color: rgb(193, 233, 216);
+    border-radius: 10px;
+}
+.div-form > input{
+    margin: 20px;
+    padding: 7px;
+    border: 1px solid #ffff;
+}
+.div-form > h2{
+    margin: 10px;
+}
+#submit{
+    border-radius: 5px;
+    padding: 10px;
+}
